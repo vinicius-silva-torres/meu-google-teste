@@ -1,11 +1,10 @@
-// === CONFIGURAÇÃO RÁPIDA: NICHO DE MASSOTERAPIA ===
+// === CONFIGURAÇÃO RÁPIDA: NICHO DE SALÃO DE BELEZA ===
 const CONFIG_BUSCA = {
-  // Coloque aqui o link online do seu site de massoterapia ou o caminho da pasta local:
-  // Exemplo local: "../site estetica massoterapia/index.html"
-  urlDestino: "https://estetica-angel.conectaweb.workers.dev/",
+  // Link do seu site de salão de beleza para onde o clique vai redirecionar
+  urlDestino: "https://salao-de-beleza.conectaweb.workers.dev/",
 
   // Frase que será escrita sozinha na barra inicial do Google
-  termoPadrao: "massoterapia perto de mim",
+  termoPadrao: "salão de beleza perto de mim",
 
   // Configurações da digitação automática para a gravação
   digitarSozinho: true,
@@ -17,37 +16,37 @@ const CONFIG_BUSCA = {
 
   // Sugestões abaixo da barra na 1ª tela
   sugestoes: [
-    "massoterapia perto de mim",
-    "massagem para dor nas costas e lombar",
-    "drenagem linfática e massagem relaxante"
+    "salão de beleza perto de mim",
+    "mechas e loiro iluminado são paulo",
+    "alisamento orgânico e corte feminino"
   ],
 
-  // 3 Espaços no bloco do Google Maps (Locais)
+  // 3 Salões no bloco do Google Maps (Locais)
   locaisMaps: [
     {
-      nome: "Angel • Massoterapia & Estética",
+      nome: "Espaço Evidência • Salão de Beleza",
       nota: "5,0",
-      avaliacoes: "(128)",
-      categoria: "Massoterapeuta",
-      endereco: "Ambiente climatizado • Hora marcada • Agendamento no WhatsApp",
+      avaliacoes: "(164)",
+      categoria: "Salão de beleza",
+      endereco: "Atendimento com hora marcada • Agendamento no WhatsApp",
       status: "Aberto ⋅ Fecha às 19:00",
       temSite: true // Destaca o botão "Site" apenas no seu modelo
     },
     {
-      nome: "Clínica Toque & Bem-Estar",
-      nota: "4,3",
-      avaliacoes: "(16)",
-      categoria: "Massagem terapêutica",
-      endereco: "A 1,6 km de distância",
+      nome: "Studio Glam Cabelos",
+      nota: "4,2",
+      avaliacoes: "(21)",
+      categoria: "Cabeleireiro",
+      endereco: "A 1,5 km de distância",
       status: "Aberto ⋅ Fecha às 18:00",
       temSite: false // Sem site para gerar contraste visual no vídeo
     },
     {
-      nome: "Studio Corpo & Equilíbrio",
+      nome: "Belle Hair & Estética",
       nota: "4,5",
-      avaliacoes: "(29)",
-      categoria: "Spa e massoterapia",
-      endereco: "A 2,3 km de distância",
+      avaliacoes: "(38)",
+      categoria: "Salão de beleza",
+      endereco: "A 2,2 km de distância",
       status: "Aberto ⋅ Fecha às 18:30",
       temSite: false
     }
@@ -56,18 +55,18 @@ const CONFIG_BUSCA = {
   // Resultados orgânicos logo abaixo do Mapa
   resultadosOrganicos: [
     {
-      inicial: "A",
-      nomeSite: "Espaço Aura Massoterapia & Estética Corporal",
-      urlExibida: "https://estetica-angel.conectaweb.workers.dev/",
-      titulo: "Massoterapia, Alívio de Dores na Lombar e Drenagem Linfática",
-      descricao: "Atendimento individual com hora marcada e ambiente climatizado. Veja o antes e depois de redução de inchaço e alívio de tensão nas costas. Agende pelo WhatsApp."
+      inicial: "E",
+      nomeSite: "Espaço Evidência Salão de Beleza",
+      urlExibida: "https://salao-de-beleza.conectaweb.workers.dev",
+      titulo: "Espaço Evidência | Loiros Iluminados, Liso Orgânico e Cortes",
+      descricao: "Especialistas em realçar sua beleza com produtos de linha premium que preservam a saúde dos fios. Confira nossos resultados e agende pelo WhatsApp."
     },
     {
       inicial: "G",
-      nomeSite: "Guia Saúde & Bem-Estar SP",
-      urlExibida: "https://guiasaudesp.com.br › massoterapia › zona-leste",
-      titulo: "As 10 Melhores Clínicas de Massoterapia e Drenagem Perto de Você",
-      descricao: "Encontre especialistas em massagem terapêutica, liberação miofascial, alívio de dores lombares e drenagem linfática com avaliações 5 estrelas."
+      nomeSite: "Guia Beleza SP",
+      urlExibida: "https://guiabelezasp.com.br › salao-de-beleza › zona-leste",
+      titulo: "Os 10 Melhores Salões de Beleza e Cabeleireiros Perto de Você",
+      descricao: "Compare avaliações de especialistas em mechas, loiro iluminado, progressiva sem formol, corte feminino e cronograma capilar na sua região."
     }
   ]
 };
